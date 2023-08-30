@@ -1,6 +1,6 @@
 # About this demo
 
-This demo is a simplified, frontend only version of mobile website for 3F originally launched on mobil.3f.dk in 2009.
+This demo is a simplified, frontend only version of mobile website for 3F originally launched on https://mobil.3f.dk in 2009.
 
 The website may no longer be available online in it's original form. It is shared here, in this form, as an example of the frontend work I have done over the years.
 
