@@ -44,14 +44,15 @@
 	}
 
 
-	// if($_SESSION["segment"] === "desktop") {
-	// 	print '<script type="text/javascript" src="js/seg_desktop.js"></script>';
-	// 	print '<script type="text/javascript" src="js/i-desktop.js"></script>';
-	// 	print '<style type="text/css">@import url(css/s-desktop.css);</style>';
-	// }
-	// else if($_SESSION["segment"] === "unsupported") {
+	if($_SESSION["segment"] === "desktop") {
+		print '<script type="text/javascript" src="js/seg_desktop.js"></script>';
+		print '<script type="text/javascript" src="js/i-desktop.js"></script>';
+		print '<style type="text/css">@import url(css/s-desktop.css);</style>';
+	}
+	else if($_SESSION["segment"] === "unsupported") {
 		print '<script type="text/javascript" src="js/seg_desktop.js"></script>';
 		print '<script type="text/javascript" src="js/i-invalid.js"></script>';
 		print '<style type="text/css">@import url(css/s-invalid.css);</style>';
-	// }
+	}
+
 ?>
