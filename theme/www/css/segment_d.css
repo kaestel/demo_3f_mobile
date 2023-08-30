@@ -1,0 +1,116 @@
+#page {position: relative; padding-bottom: 50px;}
+
+#header {background: #900101 url(../img/gx_major_header.png) repeat-x top left; overflow: hidden; height: 44px;}
+#header h1 {padding: 10px 0 0; text-indent: -95px; margin: 0; text-align: center; display: block;}
+#header a {background: transparent url(../img/gx_major_back.png) no-repeat top left; float: left; height: 38px; width: 95px; background-position: 0 6px;}
+
+#search {text-align: center; background: #900101 url(../img/gx_major_search.png) repeat-x top left; overflow: hidden; padding: 6px 6px 0;}
+#search fieldset {display: inline;}
+#search .logo {float: left; overflow: hidden;}
+#search .logo a {background: transparent url(../img/major_logo.png) no-repeat top left; float: left; width: 52px; height: 38px; text-indent: -1000px;}
+#search input.text {background: transparent url(../img/gx_search_input.png) no-repeat top left; float: left; width: 157px; border: 0; height: 22px; padding: 7px 2px 0 10px; margin: 0; color: #808080;}
+#search input.button {background: transparent url(../img/gx_search_button.png) no-repeat top left; float: left; width: 33px; border: 0; text-indent: -1000px; height: 32px; cursor: pointer;}
+#search .sitemap {background: transparent url(../img/gx_sitemap.png) no-repeat top left; float: right; width: 30px; height: 30px; text-indent: -1000px; overflow: hidden;}
+
+.page #search {position: absolute; top: 0; right: 0; overflow: visible;}
+.page #search input.text {display: none; position: absolute; top: 6px; right: 52px; z-index: 00;}
+.page #search input.button {background: transparent url(../img/gx_search_open.png) no-repeat top left; float: left; width: 33px; border: 0; text-indent: -1000px; height: 32px; cursor: pointer;}
+.page #search input.submit {z-index: 100; display: none;  position: absolute; top: 6px; right: 39px; background: transparent url(../img/gx_search_button.png) no-repeat top left;}
+.page #search .sitemap {background: transparent url(../img/gx_sitemap.png) no-repeat top left; float: right; width: 30px; height: 30px; text-indent: -1000px; overflow: hidden;}
+
+#nav {list-style: none; margin: 0; padding: 0; position: absolute; width: 100%; background: transparent url(../img/gx_major_nav.png) repeat-x 0 0; opacity:0; padding-top: 10px;}
+#nav li {width: 20%; float: left; padding: 0; margin: 0; background-color: transparent; background-position: center 0; background-repeat: no-repeat; border: 0;}
+#nav .article {background-image: url(../img/gx_major_nav_article.png);}
+#nav .union {background-image: url(../img/gx_major_nav_union.png);}
+#nav .a-kasse {background-image: url(../img/gx_major_nav_a-kasse.png);}
+#nav .contact {background-image: url(../img/gx_major_nav_contact.png);}
+#nav .discount {background-image: url(../img/gx_major_nav_discount.png);}
+#nav a {display: block; height: 50px; text-indent: -1000px; overflow: hidden;}
+
+
+#content h1 {padding: 8px; margin: 0;}
+#content h2 {background: #698aa4 url(../img/gx_major_h2.png) repeat-x top left; border-top: 1px solid #c5daea; border-bottom: 1px solid #5d7b93; padding: 3px 6px 5px; margin: 0; color: #ffffff;}
+#content h3 {padding: 0 8px 8px; margin: 0;}
+#content p {padding: 0 8px 8px; margin: 0;}
+#content ul {margin: 0; padding: 0; list-style: none;}
+#content .link {cursor: pointer;}
+#content hr {margin: 10px 4px; border: 1px solid #cccccc; color: #cccccc;}
+
+#content .segment li {padding: 8px; border-top: 1px solid #ffffff; border-bottom: 1px solid #d4dbdf;}
+#content .segment li.link {background: transparent url(../img/gx_segment.png) no-repeat right center; cursor: pointer;}
+#content .segment img {padding-right: 4px;}
+#content .segment div {width: 70%;}
+#content .segment h3 {float: left; clear: right; width: auto;}
+#content .segment h3 a {color: #00334c; text-decoration: none;}
+#content .segment p {float: left; width: auto; clear: left; color: #666666;}
+
+#content .article img {padding: 8px;}
+#content .article h1 {padding: 8px; line-height: 30px;}
+#content .article h2 {padding: 0 8px 8px; border: 0; line-height: 20px;}
+#content .article h3 {padding: 0 8px 8px;}
+#content .article p {padding: 0 8px 8px;}
+#content .article .author {overflow: hidden; height: 33px; display: table; width: 100%; padding: 0;}
+#content .article .author span {display: table-cell; vertical-align: middle; padding: 8px;}
+#content .article .reader {white-space: nowrap; display: table-cell; vertical-align: middle; font-weight: bold; color: #646f7c; text-decoration: none; padding: 7px 48px 9px 10px; background: transparent url(../img/gx_reader.png) no-repeat right center}
+
+
+#content .download li {background: transparent url(../img/gx_major_download.png) no-repeat 8px 8px !important;}
+#content .download a {padding-left: 22px; text-decoration: none;}
+
+#branch {padding: 8px; background: #4b76b0; text-align: center; position: relative;}
+#branch fieldset {display: inline; overflow: hidden;}
+#branch label {display: none;}
+#branch input {height: 22px; padding: 7px 10px 0 10px; width: 181px; background: transparent url(../img/gx_major_input_branch.png); border: 0;}
+#branch input.button {width: 25%; position: absolute; top: 4px; right: 6px; width: 33px; height: 33px; padding: 0; background: transparent url(../img/gx_major_submit_branch.png); text-indent: -1000px; overflow: hidden;}
+
+#contact {padding: 8px; background: #4b76b0;}
+#contact fieldset {text-align: center;}
+#contact label {display: none;}
+#contact input {width: 95%; border: 1px inset #000000; margin: 0 0 8px; background: white url(../img/gx_major_input_bg.png) repeat-x top left; padding: 2px;}
+#contact textarea {width: 95%; border: 1px inset #000000; margin: 0 0 8px; height: 68px; background: white url(../img/gx_major_input_bg.png) repeat-x top left; padding: 2px;}
+#contact input.button {border: none; width: 196px; font-weight: bold; background: transparent url(../img/gx_major_callback.png) no-repeat 0 center; height: 40px; text-indent: -1000px; overflow: hidden;}
+
+#expert {padding: 4px; background: #4b76b0;}
+#expert fieldset {text-align: center;}
+#expert label {display: none;}
+#expert input {width: 95%; border: 1px inset #000000; margin: 0 0 8px; background: white url(../img/gx_major_input_bg.png) repeat-x top left; padding: 2px;}
+#expert textarea {width: 95%; border: 1px inset #000000; margin: 0 0 8px; height: 68px; background: white url(../img/gx_major_input_bg.png) repeat-x top left; padding: 2px;}
+#expert .CRcolumn input {width: 14px;}
+#expert .CRcolumn label {display: inline-block; color: #ffffff;}
+#expert .CRcolumn select {width: 95%; border: 1px inset #000000; margin: 0 0 10px; padding: 2px;}
+#expert input.button {border: none; width: 196px; font-weight: bold; background: transparent url(../img/gx_major_callback.png) no-repeat 0 center; height: 40px; text-indent: -1000px; overflow: hidden;}
+
+
+#content .splash {background: #336699; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55;}
+#content .splash h3 {padding: 8px 5px 10px;}
+#content .splash a {color: #ffffff; text-decoration: none;}
+#content .splash p {padding: 0 5px 10px; margin: 0; max-width: 200px;}
+
+#content .money {background: transparent url(../img/gx_splash_money.png) no-repeat top right; height: 103px;}
+#content .kid {background: transparent url(../img/gx_splash_kid.png) no-repeat top right; height: 103px;}
+#content .man {background: transparent url(../img/gx_splash_man.png) no-repeat top right; height: 103px;}
+
+#content .splash_join {background: transparent url(../img/gx_major_join.png) repeat-x top left; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55; height: 44px; text-indent: 0; padding: 0 5px 0 6px;}
+#content .splash_join a {display: block; padding: 13px 0 0; text-decoration: none; color: #ffffff; background: transparent url(../img/gx_major_join_arrow.png) no-repeat right 6px; font-weight: bold;}
+#content .splash_join a span {display: block;}
+
+#content .splash_call {background: #4b76b0 url(../img/gx_major_call.png) no-repeat center center; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55; height: 50px;}
+#content .splash_call a {display: block; height: 50px;}
+#content .splash_call a span {display: none;}
+
+/* FONTS */
+* {font-family: 'Helvetica Neue', helvetica, arial; font-size: 14px; line-height: 17px;}
+#header h1 {text-shadow: 0 -1px 1px #000000; font-size: 20px;}
+#content h1 {font-size: 20px;}
+#content h2 {font-size: 16px; text-shadow: 0 -1px 1px #000000;}
+#content .segment h3 {font-size: 16px;}
+#content .download a {font-size: 16px;}
+.splash h3 {font-size: 19px;}
+.splash p {font-size: 14px;}
+.splash_join a {font-size: 19px;}
+#content .article h1 {font-size: 28px;}
+#content .article h2 {font-size: 18px; text-shadow: none;}
+#content .article h3 {font-size: 18px;}
+#content .article p {font-size: 16px;}
+#content .article .reader {font-size: 16px;}
+

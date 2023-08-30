@@ -1,0 +1,97 @@
+body {background: #ffffff; margin: 0;}
+fieldset, form {border: 0; padding: 0; margin: 0;}
+img {border: 0;}
+
+#header {background: #b30000;}
+#header a {background: transparent url(../img/gx_minor_back.gif) no-repeat top left; vertical-align: top; display: inline-block; width: 82px; height: 32px;}
+#header .logo span {display: none;}
+#header h1 {vertical-align: top; display: inline-block; color: #ffffff; padding: 10px 0 0; margin: 0;}
+
+#search {background: #b30000;}
+#search .logo {vertical-align: top; display: inline-block;}
+#search .logo a {background: transparent url(../img/minor_logo.gif) no-repeat top left; vertical-align: top; display: inline-block; width: 42px; height: 32px;}
+#search .logo span {display: none;}
+#search fieldset {vertical-align: top; display: inline-block;}
+#search label {display: none;}
+#search input.text {display: inline-block; height: 12px; margin: 5px 0;}
+#search input.button {display: inline-block;}
+#search .sitemap {display: block; color: #ffffff; text-align: center;}
+
+#nav {list-style: none; margin: 0; padding: 0;}
+#nav li {background: #336699 url(../img/gx_minor_nav.gif) no-repeat 6px 5px; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55; padding: 3px 0 2px 18px;}
+#nav li a {color: #ffffff;}
+
+
+#content {background: #eeeeee;}
+#content h1 {padding: 4px; margin: 0;}
+#content h2 {background-color: #6699cc; padding: 3px; margin: 0; color: #ffffff;}
+#content h3 {padding: 0 4px 4px; margin: 0;}
+#content p {padding: 0 4px 4px; margin: 0;}
+#content ul {margin: 0; padding: 0; list-style: none;}
+#content a {color: #aa0000;}
+#content .segment li {padding: 4px; border-top: 1px solid #ffffff; border-bottom: 1px solid #d4dbdf; }
+
+#content .segment img {border: 0; display: inline-block; padding-right: 4px;}
+#content .segment div {display: inline-block; vertical-align: top; width: 150px;}
+#content .segment h3 {display: inline-block; vertical-align: top; padding: 0; margin: 0;}
+#content .segment h3 a {color: #00334c;}
+#content .segment p {padding: 0; margin: 0;}
+
+#content .article img {border: 0; display: block; padding: 4px;}
+#content .article h1 {padding: 4px; margin: 0;}
+#content .article h2 {padding: 4px; margin: 0; background: none; color: #000000;}
+#content .article h3 {padding: 0 4px 4px; margin: 0;}
+#content .article p {padding: 0 4px 4px; margin: 0;}
+#content .article .author {padding: 0 4px 4px; margin: 0; color: #878787;}
+
+#content .object {padding: 4px; overflow: hidden;}
+#content .object object {overflow: hidden;}
+
+/*body[orient="portrait"] #content .object embed {width: 220px; height: 150px;}*/
+#content .object embed {width: 100%; height: auto;}
+
+#content .download li {background: transparent url(../img/gx_minor_download.gif) no-repeat 4px 8px;}
+#content .download a {color: #00334c; padding-left: 12px;}
+
+#branch {padding: 4px; background: #336699;}
+#branch label {display: none;}
+#branch input {width: 70%;}
+#branch input.button {width: 25%;}
+
+#contact {padding: 4px; background: #336699;}
+#contact label {display: none;}
+#contact input {width: 95%;}
+#contact textarea {width: 95%;}
+#contact input.button {border: none; width: 170px; font-weight: bold; background: transparent url(../img/gx_minor_button.gif) no-repeat 0 2px; height: 30px;}
+
+#expert {padding: 4px; background: #336699;}
+#expert label {display: none;}
+#expert input {width: 95%;}
+#expert textarea {width: 95%;}
+#expert input.radio {width: 14px;}
+#expert label.radio {display: inline-block; color: #ffffff;}
+#expert input.button {border: none; width: 170px; font-weight: bold; background: transparent url(../img/gx_minor_button.gif) no-repeat 0 2px; height: 30px;}
+
+
+#content .splash {background: #336699; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55;}
+#content .splash h3 {padding: 3px 2px 2px; margin: 0; color: #ffffff;}
+#content .splash a {color: #ffffff;}
+#content .splash p {color: #ffffff; padding: 0 2px; margin: 0;}
+
+#content .splash_join {background: #336699 url(../img/gx_minor_join.gif) no-repeat 0 bottom; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55; height: 32px;}
+#content .splash_join a {display: block; height: 28px;}
+#content .splash_join a span {display: none;}
+
+#content .splash_call {background: #336699 url(../img/gx_minor_call.gif) no-repeat 0 bottom; border-top: 1px solid #6994c0; border-bottom: 1px solid #2a3f55; height: 32px;}
+#content .splash_call a {display: block; height: 28px;}
+#content .splash_call a span {display: none;}
+
+
+/* FONTS */
+* {font-family: Helvetica, Arial; font-size: 11px; line-height: 14px;}
+#nav li a {font-size: 14px;}
+#content h1 {font-size: 13px;}
+#content h2 {font-size: 13px;}
+.splash p {font-size: 9px;}
+#content .article h1 {font-size: 15px}
+#contact input.button {font-size: 12px}
